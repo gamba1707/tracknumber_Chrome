@@ -1,0 +1,17 @@
+{
+  "name": "追跡番号",
+  "description": "追跡番号を選択して右クリックメニューから簡単に調べることが出来ます",
+  "version": "1.0",
+  "manifest_version": 3,
+"icons": {
+    "128": "icon/jp.png"
+  },
+
+  "permissions": ["activeTab","scripting","contextMenus"],
+  "action": {
+    "default_title": "追跡番号"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
